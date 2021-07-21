@@ -1,0 +1,84 @@
+.clock-outer
+{width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 16px 2px black;position: relative;}
+
+    .time-12{position: absolute;
+        top: 0px;left: 49%;}
+
+    .time-1{position: absolute;right: 27%;
+        top: 7%;}
+
+        .time-11{position: absolute;left: 27%;
+            top: 7%;}
+
+        .time-10{position: absolute;
+            left: 55px;
+            top: 108px;}
+
+        .time-2{position: absolute;
+            right: 55px;
+            top: 108px;}
+
+            .time-4{position: absolute;
+                right: 44px;
+                bottom: 109px;}
+
+                .time-5{position: absolute;
+                    right: 117px;
+                    bottom: 31px;}
+
+                    .time-7{position: absolute;
+                        left: 117px;
+                        bottom: 31px;}
+
+                        .time-8{position: absolute;
+                            left: 44px;
+                            bottom: 109px;}
+
+    .time-3
+    {position: absolute;right: 21px;
+        top: 42%;}
+
+
+        .time-9
+    {position: absolute;left: 21px;
+        top: 42%;}
+
+        .time-6
+        {position: absolute;
+            bottom: -5px;
+            right: 46%;}
+
+
+            .dot-in-clock
+            {position: absolute;
+                top: 49%;
+                left: 49%;
+                width: 15px;
+                height: 15px;
+                border-radius: 50%;
+                border: 3px solid black;}
+
+                .arrow
+                {
+                    background-color: black;
+                    position: absolute;
+                    left: 51%;
+                    height: 100%;
+                    
+                    transform-origin: bottom;}
+
+                    #hour-arrow
+                    {max-height: 121px;top: 136px;width: 7px;}
+
+                    #minutes-arrow
+                    {max-height: 181px;
+                        top: 75px;width: 4px;}
+
+                    #second-arrow
+                    {max-height: 212px;
+                        top: 43px;width: 2px;}
